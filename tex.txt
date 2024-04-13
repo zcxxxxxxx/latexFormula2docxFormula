@@ -1,0 +1,201 @@
+\mathbb{R} [x]
+
+\mathcal{P}_n := \{ p \in \mathbb{R} [x] : p(A) \ge 0 ,for \ all \ A \ge 0,A \in \mathbb{R}^{n,n} \}
+
+\mathcal{P}_{n + 1}
+
+\mathcal{P}_{n}
+
+\mathcal{P}_{n,m} = \{ p \in \mathbb{R}[x] : degree(p) \le m \ and \ p(A) \ge 0 , for \ all \ A \ge 0 , A \in \mathbb{R}^{n,n} \}
+
+0 < m < 2n
+
+m \ge 2n
+
+\Lambda = (\lambda _1 , \lambda _2, \dots , \lambda _n)
+
+n \times n
+
+\Lambda
+
+n \le 4
+
+s_k(\Lambda) = \sum\limits_{i=1}^n {\lambda_i^k},k = 1,2,\dots
+
+A \ge 0
+
+s_k(\Lambda) \ge 0,k = 1,2,\dots
+
+s_k(\Lambda) = trace(A^k)
+
+s_k(\Lambda)^m \le n^{m-1}s_{km}(\Lambda),k,m,=1,2,\dots
+
+\mathbb{P}_n = \{ p \in \mathbb{C}[x] : p(A) \ge 0 , for \ all \ A \ge 0, A \in \mathbb{R}^{n,n} \}
+
+p \in \mathcal{P}_n
+
+s_k(p(\Lambda))^m \le n^{m - 1}s_{km}(p(\Lambda)),k,m,=1,2,\dots
+
+p(A):=(p(\lambda _1),p(\lambda _2),\dots , p(\lambda _n))
+
+\mathcal{P}_n
+
+\mathcal{F}_n = \{ f \ entire :f(A) \ge 0,for \ all \ A \ge 0, A \in \mathbb{R}^{n,n} \}
+
+\mathcal{F}_2
+
+\mathcal{P}_n
+
+\mathcal{P}_{n+1} \subseteq \mathcal{P}_n
+
+\mathcal{P}_{2} \subset \mathcal{P}_1
+
+\mathcal{P}_{3} \subset \mathcal{P}_2
+
+1 + x - ax^2 + x^3 + x^4 \in \mathcal{P}_2
+
+a \le 2
+
+n \ge 2
+
+p_a
+
+\mathbb{R}[x]
+
+p_a[x] = 1 + x + x^2 + \cdots + x^{n - 1} - ax^n + x^{n+1} + x^{n+2} + \cdots + x^{2n - 1} + x^{2n}
+
+0 < a
+
+p_a \in \mathcal{P}_n
+
+A = (a_i,j)
+
+n \times n
+
+B = (b_i,j) = A^n
+
+C = (c_i,j) = p_a(A)
+
+0 < a \le 2
+
+c_{1,1} \ge 0
+
+C \ge I_n -aB + B^2
+
+I_n
+
+B_{1,1}^2 \ge b_{1,1}^2
+
+c_{1,1} \ge 1 -ab_{1,1} + b_{1,1}^2
+
+c_{1,2}
+
+1 \le j \le n
+
+x = A_{1,2}^j
+
+A^j
+
+x = \sum\limits_{i_1,i_2\cdots ,i_{j-1}=1}^n {a_{1,i_1}a_{i_1,i_2}\cdots a_{i_{j-1},2}}
+
+i_0 = 1
+
+i_j = 2
+
+x = \sum\limits_{i_1,i_2\cdots ,i_{j-1}=1}^n {\prod\limits_{k = 1}^j {a_{i_{k-1},i_k}}}
+
+n^{j - 1}
+
+\mathcal{M}_j
+
+m \in \mathcal{M}_j
+
+a_{1,1}a_{1,4}a_{4,6}a_{6,1}a_{1,2}
+
+a_{1,4}a_{4,6}a_{6,1}a_{1,1}a_{1,2}
+
+A_{1,2}^5
+
+DK_n
+
+\{1,2\dots , n\}
+
+m = \prod_{k = 1}^j {a_{i_{k - 1}},a_k \in \mathcal{M}_j}
+
+P(m)
+
+1 = i_0 \rightarrow i_1 \rightarrow i_2 \rightarrow i_3 \rightarrow \cdots \rightarrow i_{j-1} \rightarrow i_j = 2
+
+\prod_{k = 1}^j {a_{i_{k - 1}},a_k}
+
+i_0 = 1
+
+i_n = 2
+
+0 \le p \le n - 1
+
+i_p = i_{p+1}
+
+0 \le p,q \le n
+
+p + 1 < q
+
+i_p = i_q
+
+i_r \neq  i_s
+
+p \le r < s \le q
+
+s - r < q - p
+
+l(m)
+
+l(m) = 1
+
+1 \le l(m) \le n - 1
+
+k = 1,2,\dots ,n-1
+
+\mathcal{M}_{n,k}
+
+m \in \mathcal{M}
+
+l(m) = k
+
+\mathcal{M}_{n,k},k = 1,2,\dots ,n-1
+
+\mathcal{M}_n
+
+\varphi k
+
+\psi k
+
+\mathcal{M}_{n + k}
+
+\mathcal{M}_{n - k}
+
+\prod_{r = 1}^n {a_{i_{r - 1}},a_r \in \mathcal{M}_{n,k}}
+
+i_0 = 1
+
+i_n = 2
+
+\mathcal{C} : i_p \rightarrow i_{p+1} \rightarrow  i_{p+2} \rightarrow \cdots \rightarrow i_{p+k-1} \rightarrow i_{p+k} = i_p
+
+z = \prod\limits_{j = 1}^k {a_{i_{p+j-1},i_{p+j}}}
+
+m = \prod\limits_{r = 1}^p {a_{i_{r-1},i_{r}} \mathcal{Z} \prod\limits_{s = p + k + 1}^n a_{i_{s-1},i_{s}}}
+
+\varphi _k(m) := \prod\limits_{r = 1}^p {a_{i_{r-1},i_{r}} \mathcal{Z}^2 \prod\limits_{s = p + k + 1}^n a_{i_{s-1},i_{s}} \in \mathcal{M}_{n+k}}
+
+\psi  _k(m) := \prod\limits_{r = 1}^p {a_{i_{r-1},i_{r}}} \prod\limits_{s = p + k + 1}^n {a_{i_{s-1},i_{s}}} \in \mathcal{M}_{n-k}
+
+P(\psi _k(m))
+
+P(\varphi _k(m))
+
+\psi _k(m)
+
+\varphi _k(m)
+
+m = a_{1,3}a_{3,5}a_{5,7}a_{7,3}a_{3,10}a_{10,6}a_{6,4}a_{4,12}a_{12,10}a_{10,7}a_{7,5}a_{5,2}
